@@ -19,7 +19,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 {
 	 Form1->Canvas->Brush->Color = clBlue;
 	 Form1->Canvas->Rectangle(0,10,20,20);
-	 Form1->Canvas->Brush->Color = clRed;
+	 Form1->Canvas->Brush->Color = clBlue;
 	 Form1->Canvas->Pie(40,40, 80,80, 0,0, 80,80);
 }
 //---------------------------------------------------------------------------
